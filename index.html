@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .hover-underline:hover {
+            text-decoration: underline;
+        }
+        .icons {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+          margin-top: -20px !important;
+
+}
+
+    </style>
+</head>
+<body class="bg-white text-gray-800 p-4 sm:p-8 font-sans">
+    <div class="max-w-screen-lg mx-auto">
+        <header class="flex flex-col sm:flex-row justify-between items-center mb-8">
+            <h1 class="text-4xl font-semibold text-gray-900 mb-4 sm:mb-0"><a href="/index.html">ELEGANT HOUSE</a></h1>
+            <nav class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 text-lg font-medium text-gray-700">
+                <a href="/proects.html" class="hover:text-gray-600 hover-underline">Проекты домов</a>
+                <a href="/built.html" class="hover:text-gray-600 hover-underline">Построенные дома</a>
+                <a href="/future.html" class="hover:text-gray-600 hover-underline">Строятся</a>
+                <div class="flex space-x-4 text-2xl icons">
+                    <i class="fas fa-telegram hover:text-gray-600 cursor-pointer"><img width="20px" src="icons/telegram.png" alt=""></i>
+                    <i class="fas fa-telegram hover:text-gray-600 cursor-pointer"><img width="20px"  src="icons/whatsapp.png" alt=""></i>
+                
+                </div>
+            </nav>
+        </header>
+
+        <main class="mb-8 flex flex-col sm:flex-row">
+            <div class="flex-1 mb-8 sm:mb-0">
+                <h2 class="text-5xl font-light text-gray-800 mb-4">СТРОИТЕЛЬСТВО ДОМА <span class="underline text-blue-500">В ИПОТЕКУ</span></h2>
+                <p class="mb-6 text-xl text-gray-600">Проектируем жизненный опыт</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-6">
+                    <button class="bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300">ОСТАВИТЬ ЗАЯВКУ</button>
+                    <button class="bg-gray-800 text-white py-3 px-6 rounded-lg hover:bg-gray-700 transition duration-300">ИПОТЕКА КОНСУЛЬТАЦИЯ</button>
+                </div>
+            </div>
+            <div class="border border-gray-800 h-64 w-full sm:w-1/2 flex items-center justify-center rounded-lg overflow-hidden">
+                <img alt="Рендер дома" class="h-full w-full object-cover" src="./main.jpg">
+            </div>
+        </main>
+
+        <footer class="flex flex-col sm:flex-row justify-between items-center border-t border-gray-800 pt-6 mt-12">
+            <div class="text-lg text-gray-700 mb-4 sm:mb-0">
+                <p>ИП Козова Ляйля Джанильевна</p>
+                <p>ИНН 693203638581</p>
+            </div>
+            <div class="text-lg text-gray-700">
+                <p>8 921 305 8883</p>
+                <p>Отдел продаж и консультаций</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+  
